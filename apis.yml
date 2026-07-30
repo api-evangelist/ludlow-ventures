@@ -1,8 +1,22 @@
 aid: ludlow-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ludlow-ventures.png
 name: Ludlow Ventures
-description: 'Ludlow Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Ludlow Ventures is an early-stage venture capital firm founded in 2010 and based in
+  Detroit, Michigan. Led by partners Jonathon Triest and Brett deMarrais, the firm invests in
+  exceptional founders across sectors with a relationship-driven, people-first philosophy, backing
+  companies at the earliest stages rather than chasing trends. It was surfaced in the API Evangelist
+  network as a portfolio company of Foundry Group. Sector: venture-capital.'
 url: https://raw.githubusercontent.com/api-evangelist/ludlow-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +26,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Venture Capital
+- Early Stage
+- Seed
+- Startups
+- Investment
+- Detroit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +42,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ludlow-ventures-domain-security.yml
 - type: Website
   url: https://www.ludlowventures.com
+- type: Portfolio
+  url: https://ludlowventures.notion.site/3c49aa91c41a4090bda8d8e29e55e859?v=4e6124a6ca234ceaaa106966aa38ec94
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
